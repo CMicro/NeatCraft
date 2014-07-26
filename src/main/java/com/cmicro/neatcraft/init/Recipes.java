@@ -8,7 +8,7 @@ public class Recipes
 {
     public static void init()
     {
-        //Craftingsss
+        //Crafting
         GameRegistry.addShapedRecipe
         (
                 new ItemStack(ModItems.itemSteel),
