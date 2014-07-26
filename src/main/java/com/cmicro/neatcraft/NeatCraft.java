@@ -1,6 +1,6 @@
 package com.cmicro.neatcraft;
 
-import com.cmicro.neatcraft.configuration.ConfigHandler;
+import com.cmicro.neatcraft.handler.ConfigHandler;
 import com.cmicro.neatcraft.proxy.IProxy;
 import com.cmicro.neatcraft.resources.References;
 import cpw.mods.fml.common.Mod;
@@ -9,7 +9,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = References.MOD_ID, name = References.MOD_NAME, version = References.MOD_VERSION)
+@Mod(modid = References.MOD_ID, name = References.MOD_NAME, version = References.MOD_VERSION, guiFactory = References.GUI_FACTORY)
 public class NeatCraft
 {
     @Mod.Instance(References.MOD_ID)
