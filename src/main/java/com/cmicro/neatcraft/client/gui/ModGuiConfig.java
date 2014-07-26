@@ -1,14 +1,21 @@
 package com.cmicro.neatcraft.client.gui;
 
+import com.cmicro.neatcraft.handler.ConfigHandler;
+import com.cmicro.neatcraft.resources.References;
 import cpw.mods.fml.client.config.GuiConfig;
-import cpw.mods.fml.client.config.IConfigElement;
 import net.minecraft.client.gui.GuiScreen;
-
-import java.util.List;
+import net.minecraftforge.common.config.ConfigElement;
+import net.minecraftforge.common.config.Configuration;
 
 public class ModGuiConfig extends GuiConfig
 {
-    public ModGuiConfig(GuiScreen parentScreen, List<IConfigElement> configElements, String modID, String configID, boolean allRequireWorldRestart, boolean allRequireMcRestart, String title) {
-        super(parentScreen, configElements, modID, configID, allRequireWorldRestart, allRequireMcRestart, title);
+    public ModGuiConfig(GuiScreen guiScreen)
+    {
+        super(guiScreen,
+                new ConfigElement(ConfigHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
+                References.MOD_ID,
+                false,
+                false,
+                GuiConfig.getAbridgedConfigPath(ConfigHandler.configuration.toString()));
     }
 }

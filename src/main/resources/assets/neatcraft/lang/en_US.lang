@@ -1,3 +1,7 @@
 #Blocks
+tile.neatcraft:blockSteel.name=Steel Block
 
 #Items
+item.neatcraft:ingotSteel.name=Steel Ingot
+item.neatcraft:ingotEnderSteel.name=Ender Steel Ingot
+item.neatcraft:ingotHardenedSteel.name=Hardened Steel Ingot

@@ -8,4 +8,5 @@ public class References
     public static final String CLIENT_PROXY = "com.cmicro.neatcraft.proxy.ClientProxy";
     public static final String SERVER_PROXY = "com.cmicro.neatcraft.proxy.ServerProxy";
     public static final String GUI_FACTORY = "com.cmicro.neatcraft.client.gui.GuiFactory";
+    public static final String RESOURCE_PREFIX = References.MOD_ID.toLowerCase();
 }
