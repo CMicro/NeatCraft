@@ -1,7 +1,9 @@
 package com.cmicro.neatcraft;
 
+import com.cmicro.neatcraft.proxy.IProxy;
 import com.cmicro.neatcraft.resources.References;
 import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
@@ -11,6 +13,9 @@ public class NeatCraft
 {
     @Mod.Instance(References.MOD_ID)
     public static NeatCraft instance;
+
+    @SidedProxy(clientSide = References.CLIENT_PROXY, serverSide = References.SERVER_PROXY)
+    public static IProxy proxy;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
