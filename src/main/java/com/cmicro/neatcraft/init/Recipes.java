@@ -49,7 +49,7 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemSteel, 9), new ItemStack(ModBlocks.blockSteel));
 
-        //Smeltin
+        //Smelting
         GameRegistry.addSmelting(new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemHardenedSteel), 1.0F);
     }
 }
