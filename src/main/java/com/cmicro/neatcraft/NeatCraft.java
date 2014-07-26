@@ -1,5 +1,6 @@
 package com.cmicro.neatcraft;
 
+import com.cmicro.neatcraft.configuration.ConfigHandler;
 import com.cmicro.neatcraft.proxy.IProxy;
 import com.cmicro.neatcraft.resources.References;
 import cpw.mods.fml.common.Mod;
@@ -20,7 +21,7 @@ public class NeatCraft
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ConfigHandler.init(event.getSuggestedConfigurationFile());
     }
 
     @Mod.EventHandler

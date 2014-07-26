@@ -1,5 +1,5 @@
 package com.cmicro.neatcraft.proxy;
 
-public class CommonProxy implements IProxy
+public abstract class CommonProxy implements IProxy
 {
 }
