@@ -1,3 +1,5 @@
 NeatCraft
 =========
-Its just another testing mod...
+Just another overpowered mod...
+------------------
+[Releases](https://github.com/CMicro/NeatCraft/releases)
