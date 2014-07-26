@@ -30,6 +30,6 @@ public class ConfigHandler
             //Save config
         }
 
-        System.out.println(configValue);
+        System.out.println("Config test: " + configValue);
     }
 }
