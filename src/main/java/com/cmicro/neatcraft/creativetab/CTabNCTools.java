@@ -10,7 +10,7 @@ public class CTabNCTools
     public static final CreativeTabs NC_TOOL_TAB = new CreativeTabs(References.MOD_ID + "Tools") {
         @Override
         public Item getTabIconItem() {
-            return ModItems.itemSteel;
+            return ModItems.eSteelSword;
         }
 
         @Override

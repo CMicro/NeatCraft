@@ -1,5 +1,6 @@
 package com.cmicro.neatcraft.items;
 
+import com.cmicro.neatcraft.creativetab.CTabNCResources;
 import com.cmicro.neatcraft.resources.References;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemNC extends Item
     public ItemNC()
     {
         super();
+        setCreativeTab(CTabNCResources.NC_RES_TAB);
     }
 
     @Override

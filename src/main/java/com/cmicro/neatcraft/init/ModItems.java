@@ -26,6 +26,7 @@ public class ModItems
 {
     public static Item.ToolMaterial HSTEEL = EnumHelper.addToolMaterial("HSTEEL", 7, 2560, 20.0F, 10.0F, 30);
     public static Item.ToolMaterial ESTEEL = EnumHelper.addToolMaterial("ESTEEL", 10, 80000, 30.0F, 20.0F, 40);
+    public static Item.ToolMaterial GEMLON = EnumHelper.addToolMaterial("GEMLON", 15, 160000, 40.0F, 30.0F, 60);
 
     public static final ItemNC itemSteel = new ItemSteel();
     public static final ItemNC itemEnderSteel = new ItemEnderSteel();
@@ -42,6 +43,8 @@ public class ModItems
     public static final ItemAxeNC eSteelAxe = new eSteelAxe(ESTEEL);
     public static final ItemShovelNC eSteelShovel = new eSteelShovel(ESTEEL);
     public static final ItemHoeNC eSteelHoe = new eSteelHoe(ESTEEL);
+    public static final ItemSwordNC lonSword = new lonSword(GEMLON);
+    public static final ItemPickaxeNC lonPickaxe = new lonPickaxe(GEMLON);
 
     public static void init()
     {
@@ -60,5 +63,7 @@ public class ModItems
         GameRegistry.registerItem(eSteelAxe, "eSteelAxe");
         GameRegistry.registerItem(eSteelShovel, "eSteelShovel");
         GameRegistry.registerItem(eSteelHoe, "eSteelHoe");
+        GameRegistry.registerItem(lonSword, "lonSword");
+        GameRegistry.registerItem(lonPickaxe, "lonPickaxe");
     }
 }

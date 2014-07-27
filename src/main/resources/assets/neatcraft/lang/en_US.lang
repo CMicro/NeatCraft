@@ -1,5 +1,10 @@
 #Blocks
 tile.neatcraft:blockSteel.name=Steel Block
+tile.neatcraft:blockCFlint1.name=Double Compressed Flint Block
+tile.neatcraft:blockHSteel.name=Hardened Steel Block
+tile.neatcraft:blockESteel.name=Ender Steel Block
+tile.neatcraft:blockCFlintB.name=Burnt Compressed Flint Block
+
 
 #Items
 item.neatcraft:ingotSteel.name=Steel Ingot
@@ -16,3 +21,6 @@ item.neatcraft:eSteelPickaxe.name=Ender Steel Pickaxe
 item.neatcraft:eSteelAxe.name=Ender Steel Axe
 item.neatcraft:eSteelShovel.name=Ender Steel Shovel
 item.neatcraft:eSteelHoe.name=Ender Steel Hoe
+item.neatcraft:gemLonsdaleite.name=Lonsdaleite Gem
+item.neatcraft:lonSword.name=Lonsdaleite Sword
+item.neatcraft:lonPickaxe.name=Lonsdaleite Pickaxe
