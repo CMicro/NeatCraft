@@ -1,5 +1,6 @@
 package com.cmicro.neatcraft.blocks;
 
+import com.cmicro.neatcraft.creativetab.CTabNCResources;
 import com.cmicro.neatcraft.resources.References;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class BlockNC extends Block
     public BlockNC(Material material)
     {
         super(material);
+        setCreativeTab(CTabNCResources.NC_RES_TAB);
     }
 
     public BlockNC()
