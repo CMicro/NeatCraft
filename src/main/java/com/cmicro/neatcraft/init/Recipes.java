@@ -145,6 +145,41 @@ public class Recipes
                         "ERE",
                         "ERE", 'L', new ItemStack(ModItems.gemLonsdaleite), 'R', new ItemStack(ModItems.rodSteel), 'E', new ItemStack(Items.ender_eye)
                 );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.lonAxe),
+                        "ELL",
+                        "ERL",
+                        "ERE", 'L', new ItemStack(ModItems.gemLonsdaleite), 'R', new ItemStack(ModItems.rodSteel), 'E', new ItemStack(Items.ender_eye)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.lonAxe),
+                        "LLE",
+                        "LRE",
+                        "ERE", 'L', new ItemStack(ModItems.gemLonsdaleite), 'R', new ItemStack(ModItems.rodSteel), 'E', new ItemStack(Items.ender_eye)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.lonShovel),
+                        "ELE",
+                        "ERE",
+                        "ERE", 'L', new ItemStack(ModItems.gemLonsdaleite), 'R', new ItemStack(ModItems.rodSteel), 'E', new ItemStack(Items.ender_eye)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.lonHoe),
+                        "ELL",
+                        "ERE",
+                        "ERE", 'L', new ItemStack(ModItems.gemLonsdaleite), 'R', new ItemStack(ModItems.rodSteel), 'E', new ItemStack(Items.ender_eye)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.lonHoe),
+                        "LLE",
+                        "ERE",
+                        "ERE", 'L', new ItemStack(ModItems.gemLonsdaleite), 'R', new ItemStack(ModItems.rodSteel), 'E', new ItemStack(Items.ender_eye)
+                );
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemSteel, 9), new ItemStack(ModBlocks.blockSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemHardenedSteel, 9), new ItemStack(ModBlocks.blockHSteel));
@@ -153,6 +188,8 @@ public class Recipes
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemEnderSteel, 9), new ItemStack(ModBlocks.blockESteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockCFlint1), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint));
         GameRegistry.addShapelessRecipe(new ItemStack(Items.flint, 9), new ItemStack(ModBlocks.blockCFlint1));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockLon), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite), new ItemStack(ModItems.gemLonsdaleite));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.gemLonsdaleite, 9), new ItemStack(ModBlocks.blockLon));
 
         //Smelting
         GameRegistry.addSmelting(new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemHardenedSteel), 1.0F);

@@ -45,6 +45,10 @@ public class ModItems
     public static final ItemHoeNC eSteelHoe = new eSteelHoe(ESTEEL);
     public static final ItemSwordNC lonSword = new lonSword(GEMLON);
     public static final ItemPickaxeNC lonPickaxe = new lonPickaxe(GEMLON);
+    public static final ItemAxeNC lonAxe = new lonAxe(GEMLON);
+    public static final ItemShovelNC lonShovel = new lonShovel(GEMLON);
+    public static final ItemHoeNC lonHoe = new lonHoe(GEMLON);
+
 
     public static void init()
     {
@@ -65,5 +69,8 @@ public class ModItems
         GameRegistry.registerItem(eSteelHoe, "eSteelHoe");
         GameRegistry.registerItem(lonSword, "lonSword");
         GameRegistry.registerItem(lonPickaxe, "lonPickaxe");
+        GameRegistry.registerItem(lonAxe, "lonAxe");
+        GameRegistry.registerItem(lonShovel, "lonShovel");
+        GameRegistry.registerItem(lonHoe, "lonHoe");
     }
 }

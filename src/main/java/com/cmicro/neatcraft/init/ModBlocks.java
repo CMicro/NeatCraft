@@ -12,6 +12,7 @@ public class ModBlocks
     public static final BlockNC blockESteel = new BlockESteel();
     public static final BlockNC blockCFlint1 = new BlockCFlint1();
     public static final BlockNC blockCFlintB = new BlockCFlintB();
+    public static final BlockNC blockLon = new BlockLon();
 
     public static void init()
     {
@@ -20,5 +21,6 @@ public class ModBlocks
         GameRegistry.registerBlock(blockESteel, "blockESteel");
         GameRegistry.registerBlock(blockCFlint1, "blockCFlint1");
         GameRegistry.registerBlock(blockCFlintB, "blockCFlintB");
+        GameRegistry.registerBlock(blockLon, "blockLon");
     }
 }
