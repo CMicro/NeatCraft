@@ -26,7 +26,7 @@ public class NeatCraft
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        FMLCommonHandler.instance().bus().register(new ConfigHandler()); //com
+        FMLCommonHandler.instance().bus().register(new ConfigHandler());
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         ModItems.init();
         ModBlocks.init();
