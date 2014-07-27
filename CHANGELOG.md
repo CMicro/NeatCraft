@@ -11,3 +11,6 @@
 + Fixed bugs in 2.0
 + Added Hardened Steel Block
 + Completed Tools
+
+1.7.10-4.0:
++ Added Ender Steel tools.
