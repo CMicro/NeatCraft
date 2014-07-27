@@ -74,10 +74,63 @@ public class Recipes
                         " R ",
                         " R ", 'S', new ItemStack(ModItems.itemHardenedSteel), 'R', new ItemStack(ModItems.rodSteel)
                 );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.eSteelSword),
+                        " S ",
+                        " S ",
+                        " R ", 'S', new ItemStack(ModItems.itemEnderSteel), 'R', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.eSteelPickaxe),
+                        "SSS",
+                        " R ",
+                        " R ", 'S', new ItemStack(ModItems.itemEnderSteel), 'R', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.eSteelAxe),
+                        "SS ",
+                        "SR ",
+                        " R ", 'S', new ItemStack(ModItems.itemEnderSteel), 'R', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.eSteelAxe),
+                        " SS",
+                        " RS",
+                        " R ", 'S', new ItemStack(ModItems.itemEnderSteel), 'R', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.eSteelShovel),
+                        " S ",
+                        " R ",
+                        " R ", 'S', new ItemStack(ModItems.itemEnderSteel), 'R', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.eSteelHoe),
+                        " SS",
+                        " R ",
+                        " R ", 'S', new ItemStack(ModItems.itemEnderSteel), 'R', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.eSteelHoe),
+                        "SS ",
+                        " R ",
+                        " R ", 'S', new ItemStack(ModItems.itemEnderSteel), 'R', new ItemStack(ModItems.rodSteel)
+                );
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemSteel, 9), new ItemStack(ModBlocks.blockSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemHardenedSteel, 9), new ItemStack(ModBlocks.blockHSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockHSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel), new ItemStack(ModItems.itemHardenedSteel));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockESteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel), new ItemStack(ModItems.itemEnderSteel));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemEnderSteel, 9), new ItemStack(ModBlocks.blockESteel));
+        GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockCFlint1), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint), new ItemStack(Items.flint));
+        GameRegistry.addShapelessRecipe(new ItemStack(Items.flint, 9), new ItemStack(ModBlocks.blockCFlint1));
 
         //Smelting
         GameRegistry.addSmelting(new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemHardenedSteel), 1.0F);
