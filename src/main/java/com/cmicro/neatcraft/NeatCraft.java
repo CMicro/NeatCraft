@@ -22,7 +22,7 @@ public class NeatCraft
 
     @SidedProxy(clientSide = References.CLIENT_PROXY, serverSide = References.SERVER_PROXY)
     public static IProxy proxy;
-
+    //random commit comment
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
