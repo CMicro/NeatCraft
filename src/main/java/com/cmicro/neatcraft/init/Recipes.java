@@ -1,6 +1,5 @@
 package com.cmicro.neatcraft.init;
 
-import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -194,5 +193,6 @@ public class Recipes
         //Smelting
         GameRegistry.addSmelting(new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemHardenedSteel), 1.0F);
         GameRegistry.addSmelting(new ItemStack(ModBlocks.blockCFlint1), new ItemStack(ModBlocks.blockCFlintB), 1.0F);
+        GameRegistry.addSmelting(new ItemStack(Items.leather), new ItemStack(ModItems.itemHardenedLeather), 1.0F);
     }
 }

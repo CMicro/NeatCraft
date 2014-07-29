@@ -4,6 +4,7 @@ import com.cmicro.neatcraft.handler.ConfigHandler;
 import com.cmicro.neatcraft.init.ModBlocks;
 import com.cmicro.neatcraft.init.ModItems;
 import com.cmicro.neatcraft.init.Recipes;
+import com.cmicro.neatcraft.init.VanillaTweaks;
 import com.cmicro.neatcraft.proxy.IProxy;
 import com.cmicro.neatcraft.resources.References;
 import com.cmicro.neatcraft.utility.LogHelper;
@@ -22,7 +23,6 @@ public class NeatCraft
 
     @SidedProxy(clientSide = References.CLIENT_PROXY, serverSide = References.SERVER_PROXY)
     public static IProxy proxy;
-    //random commit comment
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
@@ -37,6 +37,7 @@ public class NeatCraft
     public void init(FMLInitializationEvent event)
     {
         Recipes.init();
+        VanillaTweaks.init();
         LogHelper.info("Initialization Complete!");
     }
 

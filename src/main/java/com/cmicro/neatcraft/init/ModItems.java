@@ -33,6 +33,7 @@ public class ModItems
     public static final ItemNC itemHardenedSteel = new ItemHardenedSteel();
     public static final ItemNC rodSteel = new rodSteel();
     public static final ItemNC gemLonsdaleite = new gemLonsdaleite();
+    public static final ItemNC itemHardenedLeather = new ItemHardenedLeather();
     public static final ItemSwordNC steelSword = new steelSword(HSTEEL);
     public static final ItemPickaxeNC steelPickaxe = new steelPickaxe(HSTEEL);
     public static final ItemAxeNC steelAxe = new steelAxe(HSTEEL);
@@ -57,6 +58,7 @@ public class ModItems
         GameRegistry.registerItem(itemHardenedSteel, "ingotHardenedSteel");
         GameRegistry.registerItem(rodSteel, "rodSteel");
         GameRegistry.registerItem(gemLonsdaleite, "gemLonsdaleite");
+        GameRegistry.registerItem(itemHardenedLeather, "itemHardenedLeather");
         GameRegistry.registerItem(steelSword, "steelSword");
         GameRegistry.registerItem(steelPickaxe, "steelPickaxe");
         GameRegistry.registerItem(steelAxe, "steelAxe");
