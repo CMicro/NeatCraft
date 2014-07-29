@@ -1,4 +1,4 @@
-NeatCraft [![Build Status](https://drone.io/github.com/CMicro/NeatCraft/status.png)](https://drone.io/github.com/CMicro/NeatCraft/latest)
+NeatCraft 
 =========
 Just another overpowered mod...
 ------------------
