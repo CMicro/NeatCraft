@@ -16,6 +16,6 @@
 + Added Ender Steel tools.
 
 1.7.10-5.0:
-+ Added Lonsdaleite
++ Added Lonsdaleite Gem
 + Added Lonsdaleite Tools
 + Fixed name and texture glitch
