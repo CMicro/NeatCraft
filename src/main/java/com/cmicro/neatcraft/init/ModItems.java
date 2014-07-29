@@ -49,6 +49,7 @@ public class ModItems
     public static final ItemAxeNC lonAxe = new lonAxe(GEMLON);
     public static final ItemShovelNC lonShovel = new lonShovel(GEMLON);
     public static final ItemHoeNC lonHoe = new lonHoe(GEMLON);
+    //aaa
 
 
     public static void init()

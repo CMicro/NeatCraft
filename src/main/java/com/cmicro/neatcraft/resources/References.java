@@ -2,6 +2,7 @@ package com.cmicro.neatcraft.resources;
 
 public class References
 {
+    //aaa
     public static final String MOD_ID = "NeatCraft";
     public static final String MOD_NAME = "Neat Craft";
     public static final String MOD_VERSION = "1.7.10-6.0";
