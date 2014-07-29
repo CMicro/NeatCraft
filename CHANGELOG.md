@@ -19,3 +19,6 @@
 + Added Lonsdaleite Gem
 + Added Lonsdaleite Tools
 + Fixed name and texture glitch
+
+1.7.10-6.0:
++ Added Vanilla Tweaks
