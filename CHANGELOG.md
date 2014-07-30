@@ -22,3 +22,8 @@
 
 1.7.10-6.0:
 + Added Vanilla Tweaks
+
+1.7.10-7.0:
++ Updated Forge to 10.13.0.1189
++ Added Ruby Gem
++ Added Ruby Sword
