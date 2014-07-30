@@ -18,7 +18,6 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = References.MOD_ID, name = References.MOD_NAME, version = References.MOD_VERSION, guiFactory = References.GUI_FACTORY)
 public class NeatCraft
 {
-    //aaa
     @Mod.Instance(References.MOD_ID)
     public static NeatCraft instance;
 

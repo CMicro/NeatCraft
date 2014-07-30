@@ -179,7 +179,13 @@ public class Recipes
                         "ERE",
                         "ERE", 'L', new ItemStack(ModItems.gemLonsdaleite), 'R', new ItemStack(ModItems.rodSteel), 'E', new ItemStack(Items.ender_eye)
                 );
-        //aaa
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.rubySword),
+                        " R ",
+                        " R ",
+                        " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemSteel, 9), new ItemStack(ModBlocks.blockSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemHardenedSteel, 9), new ItemStack(ModBlocks.blockHSteel));
@@ -195,5 +201,6 @@ public class Recipes
         GameRegistry.addSmelting(new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemHardenedSteel), 1.0F);
         GameRegistry.addSmelting(new ItemStack(ModBlocks.blockCFlint1), new ItemStack(ModBlocks.blockCFlintB), 1.0F);
         GameRegistry.addSmelting(new ItemStack(Items.leather), new ItemStack(ModItems.itemHardenedLeather), 1.0F);
+        GameRegistry.addSmelting(new ItemStack(Items.gold_ingot), new ItemStack(ModItems.gemRuby), 1.0F);
     }
 }

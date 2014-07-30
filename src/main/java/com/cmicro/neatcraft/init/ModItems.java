@@ -27,12 +27,14 @@ public class ModItems
     public static Item.ToolMaterial HSTEEL = EnumHelper.addToolMaterial("HSTEEL", 7, 2560, 20.0F, 10.0F, 30);
     public static Item.ToolMaterial ESTEEL = EnumHelper.addToolMaterial("ESTEEL", 10, 80000, 30.0F, 20.0F, 40);
     public static Item.ToolMaterial GEMLON = EnumHelper.addToolMaterial("GEMLON", 15, 160000, 40.0F, 30.0F, 60);
+    public static Item.ToolMaterial GEMRUBY = EnumHelper.addToolMaterial("GEMRUBY", 12, 12000, 35.0F, 25.0F, 50);
 
     public static final ItemNC itemSteel = new ItemSteel();
     public static final ItemNC itemEnderSteel = new ItemEnderSteel();
     public static final ItemNC itemHardenedSteel = new ItemHardenedSteel();
     public static final ItemNC rodSteel = new rodSteel();
     public static final ItemNC gemLonsdaleite = new gemLonsdaleite();
+    public static final ItemNC gemRuby = new gemRuby();
     public static final ItemNC itemHardenedLeather = new ItemHardenedLeather();
     public static final ItemSwordNC steelSword = new steelSword(HSTEEL);
     public static final ItemPickaxeNC steelPickaxe = new steelPickaxe(HSTEEL);
@@ -49,7 +51,7 @@ public class ModItems
     public static final ItemAxeNC lonAxe = new lonAxe(GEMLON);
     public static final ItemShovelNC lonShovel = new lonShovel(GEMLON);
     public static final ItemHoeNC lonHoe = new lonHoe(GEMLON);
-    //aaa
+    public static final ItemSwordNC rubySword = new rubySword(GEMRUBY);
 
 
     public static void init()
@@ -59,6 +61,7 @@ public class ModItems
         GameRegistry.registerItem(itemHardenedSteel, "ingotHardenedSteel");
         GameRegistry.registerItem(rodSteel, "rodSteel");
         GameRegistry.registerItem(gemLonsdaleite, "gemLonsdaleite");
+        GameRegistry.registerItem(gemRuby, "gemRuby");
         GameRegistry.registerItem(itemHardenedLeather, "itemHardenedLeather");
         GameRegistry.registerItem(steelSword, "steelSword");
         GameRegistry.registerItem(steelPickaxe, "steelPickaxe");
@@ -75,5 +78,6 @@ public class ModItems
         GameRegistry.registerItem(lonAxe, "lonAxe");
         GameRegistry.registerItem(lonShovel, "lonShovel");
         GameRegistry.registerItem(lonHoe, "lonHoe");
+        GameRegistry.registerItem(rubySword, "rubySword");
     }
 }

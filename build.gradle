@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-6.0"
+version = "1.7.10-7.0"
 group= "com.cmicro.neatcraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "NeatCraft"
 
 minecraft {
-    version = "1.7.10-10.13.0.1187"
+    version = "1.7.10-10.13.0.1189"
     assetDir = "eclipse/assets"
 }
 
@@ -60,5 +60,4 @@ processResources
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
-    //aaa
 }
