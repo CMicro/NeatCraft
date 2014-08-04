@@ -1,6 +1,7 @@
 package com.cmicro.neatcraft.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
@@ -36,5 +37,15 @@ public class VanillaTweaks
                         "DDL",
                         "SDS", 'L', new ItemStack(ModItems.itemHardenedLeather), 'D', new ItemStack(Items.diamond), 'S', new ItemStack(ModItems.itemSteel)
                 );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(Items.flint, 6),
+                        "GG ",
+                        " G ",
+                        "   ", 'G', new ItemStack(Blocks.gravel)
+                );
+
+        //Smelting
+        GameRegistry.addSmelting(new ItemStack(ModItems.gemLonsdaleite), new ItemStack(Items.diamond), 5.0F);
     }
 }

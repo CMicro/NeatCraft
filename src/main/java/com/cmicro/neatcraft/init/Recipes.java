@@ -186,6 +186,13 @@ public class Recipes
                         " R ",
                         " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
                 );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.rubySword),
+                        "RRR",
+                        " T ",
+                        " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemSteel, 9), new ItemStack(ModBlocks.blockSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemHardenedSteel, 9), new ItemStack(ModBlocks.blockHSteel));

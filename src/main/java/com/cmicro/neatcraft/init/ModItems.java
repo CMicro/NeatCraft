@@ -52,6 +52,7 @@ public class ModItems
     public static final ItemShovelNC lonShovel = new lonShovel(GEMLON);
     public static final ItemHoeNC lonHoe = new lonHoe(GEMLON);
     public static final ItemSwordNC rubySword = new rubySword(GEMRUBY);
+    public static final ItemPickaxeNC rubyPickaxe = new  rubyPickaxe(GEMRUBY);
 
 
     public static void init()
@@ -79,5 +80,6 @@ public class ModItems
         GameRegistry.registerItem(lonShovel, "lonShovel");
         GameRegistry.registerItem(lonHoe, "lonHoe");
         GameRegistry.registerItem(rubySword, "rubySword");
+        GameRegistry.registerItem(rubyPickaxe, "rubyPickaxe");
     }
 }
