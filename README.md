@@ -1,6 +1,6 @@
 NeatCraft [![Build Status](https://drone.io/github.com/CMicro/NeatCraft/status.png)](https://drone.io/github.com/CMicro/NeatCraft/latest)
 ======================
-This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic.
+This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
 Licensed under the [GPLv2 license](https://github.com/CMicro/NeatCraft/blob/master/LICENSE).
 =======================
