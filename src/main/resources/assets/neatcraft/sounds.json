@@ -1,0 +1,11 @@
+{
+  "records.jGumptionKML": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/jGumptionKML",
+        "stream": true
+      }
+    ]
+  }
+}

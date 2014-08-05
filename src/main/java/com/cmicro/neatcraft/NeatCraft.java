@@ -1,10 +1,7 @@
 package com.cmicro.neatcraft;
 
 import com.cmicro.neatcraft.handler.ConfigHandler;
-import com.cmicro.neatcraft.init.ModBlocks;
-import com.cmicro.neatcraft.init.ModItems;
-import com.cmicro.neatcraft.init.Recipes;
-import com.cmicro.neatcraft.init.VanillaTweaks;
+import com.cmicro.neatcraft.init.*;
 import com.cmicro.neatcraft.proxy.IProxy;
 import com.cmicro.neatcraft.resources.References;
 import com.cmicro.neatcraft.utility.LogHelper;
@@ -30,6 +27,7 @@ public class NeatCraft
         ConfigHandler.init(event.getSuggestedConfigurationFile());
         ModItems.init();
         ModBlocks.init();
+        ModRecords.init();
         LogHelper.info("Pre Init Complete!");
     }
 
