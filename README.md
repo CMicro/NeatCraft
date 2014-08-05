@@ -4,4 +4,4 @@ Just another overpowered mod...
 =======================
 Licensed under the [GPLv2 license](https://github.com/CMicro/NeatCraft/blob/master/LICENSE).
 =======================
-Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Releases](https://github.com/CMicro/NeatCraft/releases) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/)
+Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Releases](https://github.com/CMicro/NeatCraft/releases) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/) | [Latest Download(beta stage)](https://drone.io/github.com/CMicro/NeatCraft/files)
