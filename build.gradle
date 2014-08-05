@@ -20,7 +20,6 @@ apply plugin: 'forge'
 version = "1.7.10-8.0"
 group= "com.cmicro.neatcraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "NeatCraft"
-libsDirName = "../output"
 
 minecraft {
     version = "1.7.10-10.13.0.1198"
