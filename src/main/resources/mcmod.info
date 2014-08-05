@@ -2,7 +2,9 @@
 {
   "modid": "NeatCraft",
   "name": "Neat Craft",
-  "description": "Just another overpowered mod.",
+  "description": "Just another overpowered mod.
+  Music credits :
+  - Jaunty Gumption Kevin MacLeod (incompetech.com)",
   "version": "1.7.10-7.5",
   "mcversion": "1.7.10",
   "url": "",
