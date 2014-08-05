@@ -27,3 +27,7 @@
 + Updated Forge to 10.13.0.1189
 + Added Ruby Gem
 + Added Ruby Sword
+
+1.7.10-8.0:
++ Updated Forge to 10.13.0.1198
++ Added music discs!
