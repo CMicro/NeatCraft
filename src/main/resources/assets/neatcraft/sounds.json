@@ -7,5 +7,14 @@
         "stream": true
       }
     ]
+  },
+  "records.overcastKML": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/overcastKML",
+        "stream": true
+      }
+    ]
   }
 }
