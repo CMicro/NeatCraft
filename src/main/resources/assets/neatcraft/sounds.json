@@ -16,5 +16,14 @@
         "stream": true
       }
     ]
+  },
+  "records.pamgaeaKML": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/pamgaeaKML",
+        "stream": true
+      }
+    ]
   }
 }

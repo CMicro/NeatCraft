@@ -11,10 +11,12 @@ public class ModRecords
 {
     public static final ItemRecordNC recordJGumptionKML = new recordJGumptionKML("jGumptionKML");
     public static final ItemRecordNC recordOvercastKML = new recordOvercastKML("overcastKML");
+    public static final ItemRecordNC recordPamgaeaKML = new recordPamgaeaKML("pamgaeaKML");
 
     public static void init()
     {
         GameRegistry.registerItem(recordJGumptionKML, "recordJGumptionKML");
         GameRegistry.registerItem(recordOvercastKML, "recordOvercastKML");
+        GameRegistry.registerItem(recordPamgaeaKML, "recordPamgaeaKML");
     }
 }
