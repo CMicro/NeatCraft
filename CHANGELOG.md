@@ -35,4 +35,4 @@
 1.7.10-8.8:
 + Updated Forge to 10.13.0.1199
 + More discs!
-+ New problem : The mod is 6 MB now!!!
++ New problem : The mod is 9 MB now!!!
