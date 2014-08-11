@@ -3,7 +3,7 @@
     "category": "record",
     "sounds": [
       {
-        "name": "records/jGumptionKMLrate",
+        "name": "records/jGumptionKMLrat",
         "stream": true
       }
     ]
@@ -21,7 +21,7 @@
     "category": "record",
     "sounds": [
       {
-        "name": "records/pamgaeaKMLrate",
+        "name": "records/pamgaeaKMLrat",
         "stream": true
       }
     ]
