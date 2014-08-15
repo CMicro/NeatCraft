@@ -7,3 +7,5 @@ Licensed under the [GPLv2 license](https://github.com/CMicro/NeatCraft/blob/mast
 Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Releases](https://github.com/CMicro/NeatCraft/releases) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/) | [Latest Download(beta stage)](https://drone.io/github.com/CMicro/NeatCraft/files)
 -----------------------
 P.S. GitHub suggest the name potential-neat-octo, and i just take the "neat" word.
+
+Badges are from [Shields.io](http://shields.io/)
