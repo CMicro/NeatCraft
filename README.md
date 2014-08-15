@@ -1,4 +1,4 @@
-NeatCraft [![Build Status](http://118.136.153.103:8080/job/NeatCraft/badge/icon)](http://118.136.153.103:8080/job/NeatCraft/)
+NeatCraft [![Build Status](http://118.136.153.103:8080/job/NeatCraft/badge/icon)](http://118.136.153.103:8080/job/NeatCraft/) [![Version](http://img.shields.io/badge/release-1.7.10--8.8-blue.svg)](https://github.com/CMicro/NeatCraft/releases/tag/1.7.10-8.8)
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
