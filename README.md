@@ -1,4 +1,4 @@
-NeatCraft [![Build Status](https://drone.io/github.com/CMicro/NeatCraft/status.png)](https://drone.io/github.com/CMicro/NeatCraft/latest)
+NeatCraft [![Build Status](http://http://118.136.153.103:8080/job/NeatCraft/badge/icon)](http://http://118.136.153.103:8080/job/NeatCraft/)
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
