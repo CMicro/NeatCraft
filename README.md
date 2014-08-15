@@ -1,4 +1,4 @@
-NeatCraft [![Build Status](http://118.136.153.103:8080/job/NeatCraft/badge/icon.png)](http://118.136.153.103:8080/job/NeatCraft/)
+NeatCraft [![Build Status](http://118.136.153.103:8080/job/NeatCraft/badge/icon)](http://118.136.153.103:8080/job/NeatCraft/)
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
