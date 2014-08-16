@@ -1,4 +1,4 @@
-NeatCraft [![Build Status](http://118.136.153.103:8080/job/NeatCraft/badge/icon)](http://118.136.153.103:8080/job/NeatCraft/) [![Version](http://img.shields.io/badge/release-1.7.10--8.9-blue.svg)](https://github.com/CMicro/NeatCraft/releases)
+NeatCraft [![Build Status](http://118.136.153.103:8080/job/NeatCraft/badge/icon)](http://118.136.153.103:8080/job/NeatCraft/) [![Version](http://img.shields.io/badge/release-1.7.10--8.9-blue.svg)](https://github.com/CMicro/NeatCraft/releases) [![Forge](http://img.shields.io/badge/forge-10.13.0.1199-red.svg)](http://files.minecraftforge.net/)
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
