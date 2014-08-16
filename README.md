@@ -6,6 +6,6 @@ Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHAN
 -----------------------
 P.S. GitHub suggest the name potential-neat-octo, and i just take the "neat" word.
 
-Build status in readme is not 100% accurate. Click [here](http://cmicro.github.io/NeatCraft/) for the real for the updated version.
+Build status in readme is not 100% accurate. Click [here](http://cmicro.github.io/NeatCraft/) for the updated version.
 
 Badges are from [Shields.io](http://shields.io/)
