@@ -36,3 +36,7 @@
 + Updated Forge to 10.13.0.1199
 + More discs!
 + New problem : The mod is 9 MB now!!!
+
+1.7.9-8.9:
++ Updated Forge to 10.13.0.1207
++ Decreased rate of the musics, its now 4 MB :smile:
