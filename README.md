@@ -4,7 +4,7 @@ This is a random collection of things. It can be an OP thing and extremely usefu
 =======================
 Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/) | [Latest Download(beta stage)](https://drone.io/github.com/CMicro/NeatCraft/files)
 -----------------------
-P.S. GitHub suggest the name potential-neat-octo, and i just take the "neat" word.
+GitHub suggest the name.
 
 Build status in readme is not 100% accurate. Click [here](http://cmicro.github.io/NeatCraft/) for the updated version.
 
