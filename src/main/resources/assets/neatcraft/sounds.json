@@ -25,5 +25,14 @@
         "stream": true
       }
     ]
+  },
+  "records.sDiscoKML": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "records/sDiscoKML",
+        "stream": true
+      }
+    ]
   }
 }

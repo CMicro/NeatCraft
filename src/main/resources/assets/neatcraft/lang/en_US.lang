@@ -32,6 +32,9 @@ item.neatcraft:lonShovel.name=Lonsdaleite Shovel
 item.neatcraft:itemHardenedLeather.name=Hardened Leather
 item.neatcraft:rubySword.name=Ruby Sword
 item.neatcraft:rubyPickaxe.name=Ruby Pickaxe
+item.neatcraft:rubyAxe.name=Ruby Axe
+item.neatcraft:rubyShovel.name=Ruby Shovel
+item.neatcraft:rubyHoe.name=Ruby Hoe
 
 #Records
 item.neatcraft:jGumptionKML.name=Jaunty Gumption - Kevin MacLeod
@@ -42,5 +45,8 @@ item.neatcraft:overcastKML.desc=Overcast by Kevin MacLeod
 
 item.neatcraft:pamgaeaKML.name=Pamgaea - Kevin MacLeod
 item.neatcraft:pamgaeaKML.desc=Pamgaea by Kevin MacLeod
+
+item.neatcraft:sDiscoKML.name=Stringed Disco - Kevin MacLeod
+item.neatcraft:sDiscoKML.desc=Stringed Disco by Kevin MacLeod
 
 

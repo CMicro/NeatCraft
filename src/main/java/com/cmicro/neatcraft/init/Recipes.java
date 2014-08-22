@@ -188,8 +188,43 @@ public class Recipes
                 );
         GameRegistry.addShapedRecipe
                 (
-                        new ItemStack(ModItems.rubySword),
+                        new ItemStack(ModItems.rubyPickaxe),
                         "RRR",
+                        " T ",
+                        " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.rubyAxe),
+                        " RR",
+                        " TR",
+                        " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.rubyAxe),
+                        "RR ",
+                        "RT ",
+                        " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.rubyShovel),
+                        " R ",
+                        " T ",
+                        " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.rubyShovel),
+                        " RR",
+                        " T ",
+                        " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.rubyShovel),
+                        "RR ",
                         " T ",
                         " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
                 );
