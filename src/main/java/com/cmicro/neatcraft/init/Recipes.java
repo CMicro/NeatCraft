@@ -2,6 +2,7 @@ package com.cmicro.neatcraft.init;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public class Recipes
@@ -227,6 +228,13 @@ public class Recipes
                         "RR ",
                         " T ",
                         " T ", 'R', new ItemStack(ModItems.gemRuby), 'T', new ItemStack(ModItems.rodSteel)
+                );
+        GameRegistry.addShapedRecipe
+                (
+                        new ItemStack(ModItems.emrSword),
+                        " E ",
+                        " E ",
+                        " T ", 'E', new ItemStack(Items.emerald), 'T', new ItemStack(ModItems.rodSteel)
                 );
         GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.blockSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel), new ItemStack(ModItems.itemSteel));
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.itemSteel, 9), new ItemStack(ModBlocks.blockSteel));
