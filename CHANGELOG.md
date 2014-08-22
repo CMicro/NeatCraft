@@ -37,11 +37,15 @@
 + More discs!
 + New problem : The mod is 9 MB now!!!
 
-1.7.9-8.9:
+1.7.10-8.9:
 + Updated Forge to 10.13.0.1207
 + Decreased rate of the musics, its now 4 MB :smile:
 
-1.7.10-0.19.0:
+1.7.10-0.19.0(broken):
 + Updated Forge to 10.13.0.1208
 + Added Stringed Disco
 + Completed Ruby Tools
+
+1.7.10-0.19.1:
++ Added Emerald Sword
++ Fixed bugs from 0.19.0
