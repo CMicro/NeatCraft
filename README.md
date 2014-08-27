@@ -2,10 +2,8 @@ NeatCraft [![Build Status](https://travis-ci.org/CMicro/NeatCraft.svg?branch=mas
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
-Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/) | [Latest Download(beta stage)](http://118.136.153.103:8080/job/NeatCraft/)
+Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/)
 -----------------------
 GitHub suggest the name.
-
-Build status in readme is not 100% accurate. Click [here](http://cmicro.github.io/NeatCraft/) for the updated version.
 
 Badges are from [Shields.io](http://shields.io/)
