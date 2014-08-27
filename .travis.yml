@@ -6,9 +6,6 @@ jdk:
 before_install:
  - chmod +x gradlew
 
-script:
-  - ./chmod +x gradlew
-  - chmod +x gradlew
-  - gradlew build
+script: ./gradlew build
 
-after_script: gradlew clean
+after_script: ./gradlew clean
