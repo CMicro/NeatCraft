@@ -2,7 +2,7 @@ NeatCraft [![Build Status](https://travis-ci.org/CMicro/NeatCraft.svg?branch=mas
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
-Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/)
+Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/) | [Beta Downloads](http://118.136.154.89:8080/job/NeatCraft/)
 -----------------------
 GitHub suggest the name.
 
