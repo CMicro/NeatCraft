@@ -2,7 +2,7 @@ NeatCraft [![Build Status](http://cjenkins.ddns.net/job/NeatCraft/badge/icon)](h
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
-Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/) | [Beta Downloads](http://118.136.155.13:8080/job/NeatCraft)
+Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/) | [Beta Downloads](http://cjenkins.ddns.net/job/NeatCraft)
 -----------------------
 GitHub suggest the name.
 
