@@ -1,8 +1,0 @@
-language: java
-
-jdk:
-   - oraclejdk7
-   
-script: 
-  - ./gradlew setupCIWorkspace build
-  - ./gradlew clean
