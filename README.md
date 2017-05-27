@@ -2,7 +2,7 @@ NeatCraft [![License](http://img.shields.io/badge/license-GPLv2-000000.svg)](htt
 ======================
 This is a random collection of things. It can be an OP thing and extremely useful and it can also be completely aesthetic and just for fun.
 =======================
-Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md) | [Currently used Forge Javadoc](http://cmicro.github.io/NeatCraft/forge-javadoc/)
+Also consider : [ChangeLog](https://github.com/CMicro/NeatCraft/blob/master/CHANGELOG.md)
 -----------------------
 GitHub suggest the name.
 
